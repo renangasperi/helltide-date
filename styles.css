@@ -8,6 +8,7 @@ body {
    background-size: cover;
    background-repeat: no-repeat;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    font-family: 'Uncial Antiqua', cursive;
@@ -21,3 +22,7 @@ p {
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
  }
+
+ #footer {
+   font-size: 30px;
+}
