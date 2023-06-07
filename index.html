@@ -12,14 +12,22 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="conteudo">
-      <p id="titulo"></p>
-      <p id="status"></p>
-      <p id="tempo"></p>
+    <div class="layer">
+      <header class="header">Maré Infernal</header>
+      <main class="main">
+        <div class="status-container">
+          <p id="status"></p>
+          <p id="texto"></p>
+          <p id="tempo"></p>
+        </div>
+        <div class="proximos-container">
+          <p>Próximos horários do evento</p>
+          <ul id="lista">
+          </ul>
+        </div>
+      </main>
+      <footer class="footer">site não oficial</footer>
     </div>
-
-    <p id="footer">site não oficial</p>
-
     <script src="main.js"></script>
   </body>
 </html>
